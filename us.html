@@ -88,9 +88,9 @@
         var options = {
             serverUrl: "https://dailybuild.ihtsdotools.org/api/snomed",
             queryServerUrl: "https://dailybuild.ihtsdotools.org/ecl-ms",
-            queryBranch: "MAIN/2018-01-31/SNOMEDCT-US",
+            queryBranch: "MAIN/2018-07-31/SNOMEDCT-US",
             edition: "us-edition",
-            release: "v20180901",
+            release: "v20190301",
             showIds: false,
             hideNotAcceptable: true,
             displayInactiveDescriptions: false,
@@ -977,7 +977,7 @@
                                 <span class="i18n" data-i18n-id="i18n_release">Release</span>:&nbsp;<span id="editionLabel">US Dailybuild Edition 20180901</span> <span class="caret"></span>
                             </button>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="javascript:void(0);" onclick="switchRelease('US Edition 20180901', 'us-edition', 'v20180901', '', '900000000000509007');reloadCurrentPerspective();">US Edition 20180901</a></li>
+                            <li><a href="javascript:void(0);" onclick="switchRelease('US Edition 20190301', 'us-edition', 'v20190301', '', '900000000000509007');reloadCurrentPerspective();">US Edition 20190301</a></li>
                         </ul>
                     </li>
                     <li class="navbar-btn" id="perspective-selector">
@@ -1042,7 +1042,7 @@
                 <h2><span class="text-warning">Warning</span></h2>
                 <p>This browser contains a test build of the terminology for evaluation purposes only. There can be no expectation of continuity of identifiers, descriptions text or changes in components (e.g. relationships).</p>
                 <p>No new concepts or identifiers may be used in clinical systems.</p>
-                <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('US Daily Build Edition v20180901', 'us-edition', 'v20180901', '', '900000000000509007', 'https://prod-dailybuild.ihtsdotools.org/api/snomed');switchToFullHeight(404684003, 138875005);"><img src="img/box-logo.png" style="height:20px">&nbsp;&nbsp;&nbsp;<span class="i18n" data-i18n-id="i18n_start_browsing">Start browsing...</span><br><span class="small">US Daily Build edition</span></a>
+                <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('US Daily Build Edition v20190301', 'us-edition', 'v20190301', '', '900000000000509007', 'https://prod-dailybuild.ihtsdotools.org/api/snomed');switchToFullHeight(404684003, 138875005);"><img src="img/box-logo.png" style="height:20px">&nbsp;&nbsp;&nbsp;<span class="i18n" data-i18n-id="i18n_start_browsing">Start browsing...</span><br><span class="small">US Daily Build edition</span></a>
                 <br>
                 <p id="lastUpdatedText"></p>
             </div>

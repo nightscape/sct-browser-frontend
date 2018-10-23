@@ -106,7 +106,7 @@
             searchLang: "english",
             diagrammingMarkupEnabled: false,
             statusSearchFilter: "activeOnly",
-            highlightByEffectiveTime: "20180901"
+            highlightByEffectiveTime: "20190301"
         };
 
         options.languageNameOfLangRefset = {
@@ -207,7 +207,7 @@
 
             var release = QueryString.release;
             if (typeof release == "undefined" || release == null || release == "") {
-                release = "v20180901";
+                release = "v20190301";
             }
             options.release = release;
 
@@ -851,7 +851,7 @@
             }
             options.edition = edition;
             options.release = release;
-            options.queryBranch = "MAIN/2018-01-31/SNOMEDCT-US";
+            options.queryBranch = "MAIN/2018-07-31/SNOMEDCT-US";
             options.langRefset = langRefset.split(",");
             if (serverUrl) {
                 options.serverUrl = serverUrl;
@@ -974,7 +974,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="navbar-btn" id="edition-selector">
                         <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
-                                <span class="i18n" data-i18n-id="i18n_release">Release</span>:&nbsp;<span id="editionLabel">US Dailybuild Edition 20180901</span> <span class="caret"></span>
+                                <span class="i18n" data-i18n-id="i18n_release">Release</span>:&nbsp;<span id="editionLabel">US Dailybuild Edition 20190301</span> <span class="caret"></span>
                             </button>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="javascript:void(0);" onclick="switchRelease('US Edition 20190301', 'us-edition', 'v20190301', '', '900000000000509007');reloadCurrentPerspective();">US Edition 20190301</a></li>

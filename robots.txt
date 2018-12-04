@@ -2,5 +2,17 @@
 
 User-agent: *
 Allow: /$
-Disallow: /index.html
+Allow: /index.html
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AdsBot-Google
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Mediapartners-Google
 Disallow: /

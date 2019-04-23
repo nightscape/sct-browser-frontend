@@ -111,6 +111,7 @@
             "20581000087109": "fr-CA",
             "19491000087109": "en-CA",
             "900000000000508004": "GB",
+            "21000220103": "IE",
             "900000000000509007": "US",
             "450828004": "ES",
             "554461000005103": "DA",
@@ -119,6 +120,7 @@
             //                "999001251000000103":"UK",
             "11000146104": "NL",
             "15551000146102": "NL-PF",
+            "61000202103": "NO-NB",
         };
 
         if (mongoDetails.useMe) {
@@ -1003,8 +1005,12 @@
                                         reloadCurrentPerspective();">Canadian Edition 20181031</a></li>
                             <li><a href="javascript:void(0);" onclick="switchRelease('Danish Edition 20190331', 'dk-edition', 'v20190331', '2019-03-31','554461000005103', 'https://prod-browser-exten.ihtsdotools.org/api/snomed/');
                                         reloadCurrentPerspective();">Danish Edition 20190331</a></li>
+                            <li><a href="javascript:void(0);" onclick="switchRelease('Irish Edition 20190421', 'ie-edition', 'v20190421', '2019-04-21', '21000220103', 'https://prod-browser-exten.ihtsdotools.org/api/snomed/');
+                                reloadCurrentPerspective();">Irish Edition 20190421</a></li>
                             <li><a href="javascript:void(0);" onclick="switchRelease('Netherlands Edition 20190331', 'nl-edition', 'v20190331', '2019-03-31','31000146106,15551000146102', 'https://prod-browser-exten.ihtsdotools.org/api/snomed/');
                                         reloadCurrentPerspective();">NL Edition 20190331</a></li>
+                            <li><a href="javascript:void(0);" onclick="switchRelease('Norwegian Edition 20190415', 'no-edition', 'v20190415', '2019-04-15','61000202103', 'https://prod-browser-exten.ihtsdotools.org/api/snomed/');
+                                reloadCurrentPerspective();">Norwegian Edition 20190415</a></li>
                             <li><a href="javascript:void(0);" onclick="switchRelease('Swedish Edition 20181130', 'se-edition', 'v20181130', '2018-11-30','46011000052107', 'https://prod-browser-exten.ihtsdotools.org/api/snomed/');
                                         reloadCurrentPerspective();">Swedish Edition 20181130</a></li>
                             <li><a href="javascript:void(0);" onclick="switchRelease('United States Edition 20190301', 'us-edition', 'v20190301', '2019-03-01','900000000000509007', 'https://prod-browser-exten.ihtsdotools.org/api/snomed/');
@@ -1114,11 +1120,17 @@
                     <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Danish Edition 20190331', 'dk-edition', 'v20190331', '2019-03-31','554461000005103', 'https://prod-browser-exten.ihtsdotools.org/api/snomed/');
                                 switchLanguage('da', '/img/flags/dk.png', true);
                                 switchToFullHeight(404684003, 138875005);"><img src="/img/flags/dk.png">&nbsp;&nbsp;&nbsp;G&aring; til browser-siden</span><br><span class="small">Danish edition<br>2019-03-31</span></a>
+                    <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Irish Edition 20190421', 'ie-edition', 'v20190421', '21000220103', 'https://prod-browser-exten.ihtsdotools.org/api/snomed/');
+                                switchLanguage('en_US', '/img/flags/ie.png', true);
+                                switchToFullHeight(404684003, 138875005);"><img src="/img/flags/ie.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">Irish edition<br>2019-04-21</span></a>
                 </p>
                 <p>
                     <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Netherlands Edition 20190331', 'nl-edition', 'v20190331', '2019-03-31','31000146106,15551000146102', 'https://prod-browser-exten.ihtsdotools.org/api/snomed/');
                                 switchLanguage('en_US', '/img/flags/us.png', true);
                                 switchToFullHeight(404684003, 138875005);"><img src="/img/flags/nl.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">Netherlands edition<br>2019-03-31</span></a>
+                    <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Norwegian Edition 20190415', 'no-edition', 'v20190415', '2019-04-15', '61000202103,900000000000509007', 'https://prod-browser-exten.ihtsdotools.org/api/snomed/');
+                                switchLanguage('en_US', 'img/flags/us.png', true);
+                                switchToFullHeight(404684003, 138875005);"><img src="img/flags/no.png">&nbsp;&nbsp;&nbsp;Go browsing...</span><br><span class="small">Norwegian edition<br>2019-04-15</span></a>
                     <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Swedish Edition 20181130', 'se-edition', 'v20181130', '2018-11-30','46011000052107', 'https://prod-browser-exten.ihtsdotools.org/api/snomed/');
                                 switchLanguage('se', '/img/flags/se.png', true);
                                 switchToFullHeight(404684003, 138875005);"><img src="/img/flags/se.png">&nbsp;&nbsp;&nbsp;Börja söka...</span><br><span class="small">Swedish edition<br>2018-11-30</span></a>

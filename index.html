@@ -36,8 +36,8 @@
     <link rel="stylesheet" href="/css/popover-extra-placements.css">
     <link rel="stylesheet" href="/css/animate.css">
 
-    <link rel="stylesheet" href="/snomed-interaction-components/css/snomed-interaction-components-1.37.4.6.min.css">
-    <script src="/snomed-interaction-components/js/snomed-interaction-components-1.37.4.6.min.js"></script>
+    <link rel="stylesheet" href="/snomed-interaction-components/css/snomed-interaction-components-1.37.4.7.min.css">
+    <script src="/snomed-interaction-components/js/snomed-interaction-components-1.37.4.7.min.js"></script>
     <script src="/external-libs/jquery.history.js"></script>
     <script src="/external-libs/ZeroClipboard.js"></script>
 
@@ -86,7 +86,7 @@
         var options = {
             serverUrl: "https://prod-browser-exten.ihtsdotools.org/api/snomed",
             queryServerUrl: "https://browser.ihtsdotools.org/ecl",
-            queryBranch: "MAIN/2019-01-31",
+            queryBranch: "MAIN",
             edition: "en-edition",
             release: "v20190131",
             showIds: false,
@@ -991,7 +991,7 @@
                                 <span class="i18n" data-i18n-id="i18n_release">Release</span>:&nbsp;<span id="editionLabel">International Edition 20190131</span> <span class="caret"></span>
                             </button>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="javascript:void(0);" onclick="switchRelease('International Edition 20190131', 'en-edition', 'v20190131', '2019-01-31', '900000000000509007', 'https://prod-browser-exten.ihtsdotools.org/api/snomed');
+                            <li><a href="javascript:void(0);" onclick="switchRelease('International Edition 20190131', 'en-edition', 'v20190131', '', '900000000000509007', 'https://prod-browser-exten.ihtsdotools.org/api/snomed');
                                         reloadCurrentPerspective();">International Edition 20190131</a></li>
                             <li><a href="javascript:void(0);" onclick="switchRelease('Spanish Edition 20190430', 'es-edition', 'v20190430', '2019-04-30','450828004', 'https://prod-browser-exten.ihtsdotools.org/api/snomed/');
                                         reloadCurrentPerspective();">Spanish Edition 20190430</a></li>
@@ -1097,7 +1097,7 @@
                 <p>This site has been optimized for the Google Chrome browser and <strong>it will not work with Internet Explorer. </br>If you do not have access to Chrome,</strong> <a href="https://browser.ihtsdotools.org/index-ie.html">please visit the IE compatibility version here</a>                    </p>
                 <h2><span class="i18n" data-i18n-id="i18n_international_editions">International Editions</span></h2>
                 <p>
-                    <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('International Edition 20190131', 'en-edition', 'v20190131', '2019-01-31','900000000000509007', 'https://prod-browser-exten.ihtsdotools.org/api/snomed');
+                    <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('International Edition 20190131', 'en-edition', 'v20190131', '','900000000000509007', 'https://prod-browser-exten.ihtsdotools.org/api/snomed');
                                 switchToFullHeight(404684003, 138875005);"><img src="/img/logo.png" style="height:20px">&nbsp;&nbsp;&nbsp;<span class="i18n" data-i18n-id="i18n_go_browsing">Go browsing...</span><br><span class="small    ">International edition<br>January 2019</span></a>
                     <a class="btn btn-primary btn-lg" role="button" onclick="switchRelease('Spanish Edition 20190430', 'es-edition', 'v20190430', '2019-04-30','450828004', 'https://prod-browser-exten.ihtsdotools.org/api/snomed/');
                                 switchLanguage('es', '/img/flags/es.png', true);
@@ -1169,7 +1169,7 @@
             </p>
             <p><strong><a href="http://snomed.org/snomedtools-privacy" target=_blank>SNOMED International Privacy Policy</a></strong> <span id="csconsentlink">Cookie Settings</span></small>
             </p>
-            <p> <small><b>&copy; SNOMED International 2019</b> v1.37.4.6<br></small>
+            <p> <small><b>&copy; SNOMED International 2019</b> v1.37.4.7<br></small>
             </p>
         </div>
         <!-- Browsing Perspective -->
